@@ -1,2 +1,2 @@
 # IC-Optimization
- This repository contains code for a genralized version of a classic inventory control example presented in the book Dynamic Programming and Optimal Control by Dimitris Bertsekas. 
+ This repository contains code for a generalized version of a classic inventory control optimiztion problem presented in the book Dynamic Programming and Optimal Control by Dimitris Bertsekas.
