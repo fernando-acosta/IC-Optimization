@@ -4,8 +4,8 @@ This repository contains code for a generalized version of a classic inventory c
  ## Model Description
 This is a classic inventory control problem. We assume we are planning for a finite horizon (i.e., a finite number of time steps). In each time step, the inventory manager has to decide how many units of stock to buy based on the current stock levels. We can characterize the probability distribution of the demand using a general distribution, and we can use the backwards induction algorithm to minimize the expected long term cost and find and optimal control policy. 
 
-### Cost-To-Go
-We assume that the cost is quadratic with respect to excess demand or excess inventory. If we let $x_k$ be the stock in time $k$, $u_k$ the amount of stock that the inventory manager orders and $w_k$ the demand on time $k$, the cost is given by:
+### Stage Cost
+We assume that the cost is quadratic with respect to excess demand or excess inventory. If we let $x_k$ be the stock in time $k$, $u_k$ the amount of stock that the inventory manager orders and $w_k$ the demand on time $k$, the stage cost is given by:
 
 $$
 g(x_k, u_k, w_k)=(x_k+u_k-w_k)^2
